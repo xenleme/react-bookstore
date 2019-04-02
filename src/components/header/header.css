@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #E5E5E5;
+  margin-bottom: 1rem;
+}
+
+.header .logo {
+  font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  padding-left: 1rem;
+}
+
+.header .shopping-cart {
+  align-self: center;
+  font-size: 1.3rem;
+  padding-right: 1rem;
+}
+
+.header .shopping-cart .cart-icon {
+  font-size: 2.2rem;
+  color: #48C9B0;
+  margin-right: 10px;
+}
