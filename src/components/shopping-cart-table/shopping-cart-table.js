@@ -8,29 +8,33 @@ const ShoppingCartTable = () => {
       <h2>your order</h2>
       <table className="table">
         <thead>
-          <th>#</th>
-          <th>Item</th>
-          <th>Count</th>
-          <th>Price</th>
-          <th>Action</th>
+          <tr>
+            <th>#</th>
+            <th>Item</th>
+            <th>Count</th>
+            <th>Price</th>
+            <th>Action</th>
+          </tr>
         </thead>
 
         <tbody>
-          <td>1</td>
-          <td>A Modern Introduction to Javascript</td>
-          <td>2</td>
-          <td>40$</td>
-          <td>
-            <button className="btn btn-outline-danger">
-              <i className="fa fa-trash-o"/>
-            </button>
-            <button className="btn btn-outline-success">
-              <i className="fa fa-plus-circle"/>
-            </button>
-            <button className="btn btn-outline-warning">
-              <i className="fa fa-minus-circle"/>
-            </button>
-          </td>
+          <tr>
+            <td>1</td>
+            <td>A Modern Introduction to Javascript</td>
+            <td>2</td>
+            <td>40$</td>
+            <td>
+              <button className="btn btn-outline-danger">
+                <i className="fa fa-trash-o"/>
+              </button>
+              <button className="btn btn-outline-success">
+                <i className="fa fa-plus-circle"/>
+              </button>
+              <button className="btn btn-outline-warning">
+                <i className="fa fa-minus-circle"/>
+              </button>
+            </td>
+          </tr>
         </tbody>
       </table>
 
